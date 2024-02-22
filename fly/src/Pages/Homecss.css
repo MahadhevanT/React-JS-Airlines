@@ -1,0 +1,31 @@
+.Line1 {
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+}
+.Line2 {
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+}
+.btnw{
+  margin-top: 30px;
+  margin-left: 350px;
+}
+.btw-s{
+  height: 50px;
+  width: 100px;
+  background-color:rgb(0,212,212);
+  border-radius: 10px;
+  font-size: 20px;
+  color: antiquewhite;
+}
+.btw-s:hover{
+  background-color: #FF4500;
+  border-radius: 10px;
+}
+.Grid-method{
+  margin-top: 350px;
+  margin-left: 350px;
+}
+
+
+

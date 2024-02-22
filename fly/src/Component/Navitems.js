@@ -1,0 +1,20 @@
+export const navitems=[
+  {
+    id:1,
+    title:"Home",
+    path:"/",
+    cName:"nav-item",
+  },
+  {
+    id:2,
+    title:"About",
+    path:"/About",
+    cName:"nav-item",
+  },
+  {
+    id:3,
+    title:"Contact",
+    path:"/Contact",
+    cName:"nav-item",
+  },
+];

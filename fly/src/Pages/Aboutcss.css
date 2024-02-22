@@ -1,0 +1,150 @@
+.about{
+  padding-top: 90px !important;
+}
+.about{
+  padding: 90px 0px !important;
+  margin-top: 33px;
+}
+.container2{
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media(min-width:576px){
+  .container2{
+    max-width: 540px;
+  }
+}
+@media(min-width:768px) {
+  .container2{
+    max-width: 720;
+  }
+}
+@media (min-width:992px) {
+  .container2{
+    max-width: 960px;
+  }
+}
+@media (min-width:1200px) {
+  .container2{
+    max-width: 1140px;
+  }
+}
+.row{
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.col-md-12{
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.col-md-12{
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+.titlepage{
+  text-align: center;
+  padding-bottom: 54px;
+}
+.titlepage h2 {
+  padding: 0px 0px 20px 0px;
+  font-size: 45px;
+  font-weight: bold;
+  color: #0e0f10;
+  line-height: 50px;
+  text-transform: uppercase;
+  display: inline-block;
+  position: relative;
+}
+.titlepage span {
+  color: #0e0f10;
+  font-size: 17px;
+  line-height: 32px;
+  display: inline-block;
+  margin-bottom: 0px;
+  display: block;
+}
+.titlepage h2::before {
+  right: 100%;
+  margin-right: 15px;
+}
+.titlepage h2::after {
+  left: 100%;
+  margin-left: 15px;
+}
+.titlepage h2::before,
+.titlepage h2::after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  border-top: 1px solid #13aba6;
+  top: 27px;
+  width: 149px;
+}
+
+.London .titlepage{
+  text-align: center;
+  padding-bottom: 54px;
+}
+.Tours .titlepage{
+  text-align: center;
+  padding-bottom: 54px;
+}
+.titlepage{
+  text-align: center;
+}
+.col-xl-12,.col-lg-12,.col-md-12,.col-sm-12{
+  position: relative;
+  width: 100%;
+  min-height: 1p;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.about .palne-img-area{
+  display: flex ;
+  justify-self: flex-end;
+
+}
+.about .about-box p{
+font-size: 17px;
+  line-height: 32px;
+  color: #141012;
+  position: relative;
+  margin: 50px auto;
+  display: inline-block;
+  padding: 60px 25px;
+  border-left: 15px solid #077f9b;
+  border-right: 15px solid #0c1e43;
+  border-radius: 5px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background-position: 0 0, 0 100%;
+  background-repeat: no-repeat;
+  -webkit-background-size: 100% 20px;
+  -moz-background-size: 100% 20px;
+  background-size: 100% 20px;
+  background-image: linear-gradient(to right, #077f9b 0%, #0c1e43 100%), linear-gradient(to right, #077f9b 0%, #0c1e43 100%);
+  max-width: 1004px;
+}
+.about .about-box p span {
+  display: flex;
+  padding-right: 360px;
+}
+.img {
+  max-width: 100%;
+  height: auto;
+}
+.img {
+  vertical-align: middle;
+}
